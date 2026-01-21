@@ -74,7 +74,7 @@ If user doesn't specify a stack, **default to `html-tailwind`**.
 python3 .shared/ui-ux-pro-max/scripts/search.py "<keyword>" --stack html-tailwind
 ```
 
-Available stacks: `html-tailwind`, `react`, `nextjs`, `vue`, `svelte`, `swiftui`, `react-native`, `flutter`
+Available stacks: `html-tailwind`, `react`, `nextjs`, `vue`, `svelte`, `angular`, `swiftui`, `react-native`, `flutter`
 
 ---
 
@@ -102,6 +102,7 @@ Available stacks: `html-tailwind`, `react`, `nextjs`, `vue`, `svelte`, `swiftui`
 | `nextjs` | SSR, routing, images, API routes |
 | `vue` | Composition API, Pinia, Vue Router |
 | `svelte` | Runes, stores, SvelteKit |
+| `angular` | Signals, DI, Material 19, OnPush, Forms |
 | `swiftui` | Views, State, Navigation, Animation |
 | `react-native` | Components, Navigation, Lists |
 | `flutter` | Widgets, State, Layout, Theming |

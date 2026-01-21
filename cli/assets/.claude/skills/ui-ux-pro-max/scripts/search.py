@@ -5,7 +5,7 @@ UI/UX Pro Max Search - BM25 search engine for UI/UX style guides
 Usage: python search.py "<query>" [--domain <domain>] [--stack <stack>] [--max-results 3]
 
 Domains: style, prompt, color, chart, landing, product, ux, typography
-Stacks: html-tailwind, react, nextjs
+Stacks: html-tailwind, react, nextjs, vue, svelte, angular, swiftui, react-native, flutter
 """
 
 import argparse
@@ -42,7 +42,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="UI Pro Max Search")
     parser.add_argument("query", help="Search query")
     parser.add_argument("--domain", "-d", choices=list(CSV_CONFIG.keys()), help="Search domain")
-    parser.add_argument("--stack", "-s", choices=AVAILABLE_STACKS, help="Stack-specific search (html-tailwind, react, nextjs)")
+    parser.add_argument("--stack", "-s", choices=AVAILABLE_STACKS, help="Stack-specific search (html-tailwind, react, nextjs, vue, svelte, angular, swiftui, react-native, flutter)")
     parser.add_argument("--max-results", "-n", type=int, default=MAX_RESULTS, help="Max results (default: 3)")
     parser.add_argument("--json", action="store_true", help="Output as JSON")
 

@@ -63,6 +63,7 @@ STACK_CONFIG = {
     "nextjs": {"file": "stacks/nextjs.csv"},
     "vue": {"file": "stacks/vue.csv"},
     "svelte": {"file": "stacks/svelte.csv"},
+    "angular": {"file": "stacks/angular.csv"},
     "swiftui": {"file": "stacks/swiftui.csv"},
     "react-native": {"file": "stacks/react-native.csv"},
     "flutter": {"file": "stacks/flutter.csv"}
